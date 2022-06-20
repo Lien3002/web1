@@ -1,0 +1,122 @@
+header {
+    background-color: rgb(103, 63, 13);
+    
+    flex-direction: row;
+    width: 800px;
+  
+}
+.contenedor {
+    /* background-color: rgb(226, 239, 250); */
+    height: 320px;
+    margin: 10px solid rgb(87, 87, 238);
+    /* padding: 20px; */
+    display: inline-block;
+    width: 500px;
+    position: relative;
+  
+    
+}
+article{
+    background-color: rgb(138, 248, 211);
+}
+.p1{
+    background-color: beige;
+}
+.dito {
+    border: 10px solid coral;
+    height: 240px;
+    margin: 10px ;
+    margin-bottom: 20px
+    
+}
+ul {
+    /* line-height: 50px; */
+    background-color: aqua;
+    display: block;
+    /* padding: 5px;
+    line-height: 50px;
+    padding-right: 0; */
+    right: 0;
+}
+div{
+    width: 60px;
+    height: 65px;
+    display: block;
+    background-color: yellow;
+    padding: 5px;
+    margin-top: 5px;
+
+}
+li{
+    /* background-color: coral; */
+    padding: 5px;
+    /* margin-bottom: 10px; */
+    display: block;
+    margin: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;	
+    text-align: center;
+    height: 60px;
+    
+}
+.li1{
+    background-color: coral;
+    opacity: .2;
+
+}
+.li2{
+    background-color: darkgreen;
+    position: relative;
+    right: 0;
+    top: 0;
+}
+.li3{
+    background-color: blueviolet;
+    position: relative;
+    z-index: 1;
+}
+h1 {
+    font-size: 30px;
+    color: rgb(184, 208, 181);
+    background-color: brown;
+    outline: 10px solid yellowgreen;
+
+}
+h1::after { content: "@"}
+/* aside {
+    display: block;
+} */
+
+h3 {
+text-align: center;
+font-size: 30px;
+padding: 5px 3px 7px 4px;
+background-color: darkmagenta;
+width: 200px;
+height: 100px;
+box-sizing: border-box;
+margin: 30px;
+border-radius: 10px;
+border: 10px ridge blue;
+box-shadow: 10px 20px 15px burlywood;
+text-shadow: 15px 10px 5px burlywood, 15px 10px 5px burlywood;
+transform: rotate(-5deg);
+/* position: fixed; */
+top: 300px;
+float: right;
+
+}
+p {
+    background-color: aquamarine;
+    float: left;
+}
+p ::before{ 
+    content: 'no selecction';
+    color: blueviolet}
+/* no funviona aca los seudo elementos */
+
+h4{
+    font-family: 'Lobster', cursive;
+    font-weight: 0;
+    background-color: rgb(156, 196, 196);
+}
